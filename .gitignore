@@ -1,0 +1,31 @@
+# 运行时数据（产品成品、制作资产、构建输出、修复工作流）——付费产品内容，不进公开仓库
+# 其中可能含明文账号密码 / token，一并忽略
+docs/
+artifacts/
+
+# node_modules
+node_modules/
+
+# 系统杂物
+.DS_Store
+__pycache__/
+*.pyc
+
+# Claude Code 个人本地配置（机器本地，不提交）
+.claude/settings.local.json
+
+# hook 运行时状态文件（机器本地）
+.claude/.memory-changed-this-session
+.claude/.last-memory-checkpoint
+
+# 临时产物（中间产物、备份、被取代 zip 等，见 CLAUDE.md「你的约束」）
+tmp/
+
+# 本机密钥通用兜底（保留 .env.example）
+.env
+.env.*
+!.env.example
+
+# 个人隐私类待办分流（不入公开仓库）
+TODO.local.md
+TODO-archive.local.md

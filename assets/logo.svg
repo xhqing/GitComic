@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="200" viewBox="0 0 640 200" role="img" aria-label="GitComic banner logo: a comic book with a git branch on its cover, speech bubble saying undo!">
+  <defs>
+    <linearGradient id="cover" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F05032"/>
+      <stop offset="100%" stop-color="#D93A1C"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF8"/>
+      <stop offset="100%" stop-color="#FDF8F0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 奶油纸底圆角横幅 -->
+  <rect x="1" y="1" width="638" height="198" rx="28" fill="url(#paper)" stroke="#B9AFA3" stroke-width="2"/>
+
+  <!-- 漫画书封面（Git 品牌橙渐变，圆角） -->
+  <rect x="84" y="38" width="112" height="124" rx="14" fill="url(#cover)"/>
+  <!-- 书页厚度暗示（封面下缘两条浅线） -->
+  <path d="M92 158 Q140 164 188 158" fill="none" stroke="#B9AFA3" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- 封面上的 git 分支图（白线 + 三角色色节点） -->
+  <path d="M120 150 V118" fill="none" stroke="#FFF6E5" stroke-width="6" stroke-linecap="round"/>
+  <path d="M120 130 Q120 106 142 106 H150" fill="none" stroke="#FFF6E5" stroke-width="6" stroke-linecap="round"/>
+  <path d="M150 106 V72" fill="none" stroke="#FFF6E5" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="120" cy="118" r="8" fill="#2A9D8F" stroke="#FFF6E5" stroke-width="3"/>
+  <circle cx="150" cy="72" r="8" fill="#8B7CD8" stroke="#FFF6E5" stroke-width="3"/>
+
+  <!-- 漫画对话气泡（呼应 Your Undo Button for the AI Era） -->
+  <path d="M204 68 L192 76" fill="none" stroke="#2B2B2B" stroke-width="2" stroke-linecap="round"/>
+  <rect x="198" y="36" width="66" height="34" rx="11" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="2"/>
+  <text x="231" y="58" font-family="Marker Felt, Comic Sans MS, Chalkboard SE, cursive" font-size="15" font-weight="bold" fill="#2B2B2B" text-anchor="middle">undo!</text>
+
+  <!-- 项目名与定位 -->
+  <text x="292" y="105" font-family="Avenir Next, Segoe UI, Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="#2B2B2B">GitComic</text>
+  <text x="294" y="140" font-family="Avenir Next, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" fill="#6B6B6B">Git, Explained in Comics</text>
+  <!-- 三角色色小节点点缀副标题行尾 -->
+  <circle cx="298" cy="164" r="5" fill="#F05032"/>
+  <circle cx="314" cy="164" r="5" fill="#8B7CD8"/>
+  <circle cx="330" cy="164" r="5" fill="#2A9D8F"/>
+</svg>
