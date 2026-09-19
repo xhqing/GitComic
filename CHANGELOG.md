@@ -2,7 +2,7 @@
 
 本仓记录 GitComic 产品线的全部变更。**2026-09-19 建仓**：产品内容整体从 ProductProducerAgent 迁入，建仓前的生产历史条目自该仓 CHANGELOG 原样迁入（见下方各条，当时产品在 ProductProducerAgent 仓内生产，路径与表述均为当时口径）；原仓历史记录保留不删。待办编号沿用迁入的 T2 / T3，本仓新增待办自 T4 起（建仓迁移当轮已用 T4）。
 
-## [Unreleased]
+## [0.2.1] - 2026-09-19
 
 ### 变更（建仓迁移：GitComic 子项目成立，产品内容整体从 ProductProducerAgent 迁入）
 

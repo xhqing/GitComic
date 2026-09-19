@@ -43,6 +43,7 @@
 
 ## License 与署名
 
+- 项目地址：https://github.com/xhqing/GitComic
 - Copyright (c) 2026 All Contributors. 仓库文档以 [MIT](LICENSE.md) 许可。
 - 产品内容本身（PDF、图卡、分镜与源资产）**不在**该开源许可范围内——它们是商业交付物，不随本仓库分发。
 - 引用本项目时请保留版权声明并注明出处。

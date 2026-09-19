@@ -43,6 +43,7 @@ Chinese storyboard finalized first → one storyboard, two language editions (EN
 
 ## License & Attribution
 
+- Project URL: https://github.com/xhqing/GitComic
 - Copyright (c) 2026 All Contributors. Repo documentation is licensed under [MIT](LICENSE.md).
 - The product contents themselves (PDFs, card images, source/storyboard assets) are **not** covered by this open license — they are commercial deliverables and are not distributed in this repository.
 - When referencing this project, please keep the copyright notice and cite the source.
