@@ -29,9 +29,13 @@
 
 策略：验证优先——先发 20 页试读测互动，验证通过再启动全本（80–120 页，等验证结果另派任务）。
 
+## 获取试读版（GitHub Releases）
+
+试读版成图以 zip 附件形式发布在 [GitHub Releases](https://github.com/xhqing/GitComic/releases)——图片裸文件不进 git 仓库，保持仓库轻量。**中文版与英文版各自独立演进版本号**：Release tag 用分语言前缀（`zh-v*` / `en-v*`），中文版发新版不强制英文版跟随。当前：中文版 v0.2.1；英文版正在更新中，将在自己的 tag 上发布。
+
 ## 为什么仓库里几乎看不到产品文件
 
-产品本身（制作资产、成品 PDF、图卡、交付 zip、《产品说明》）都在本仓库的 **`artifacts/` 目录下，该目录被 .gitignore 有意忽略**：付费产品不进公开仓库。《产品说明》（`artifacts/git-comic-spec.md`，仅存本机）里有 product_id、定价、交付方式、验收记录与流水线接口。git 跟踪的是产品线的文档与记录。
+产品本身（制作资产、成品 PDF、图卡、交付 zip、《产品说明》）都在本仓库的 **`artifacts/` 目录下，该目录被 .gitignore 有意忽略**：付费产品不进公开仓库，免费的试读图片也不以裸文件形式进 git 历史——公开分发改走 GitHub Release 附件（见「获取试读版」）。《产品说明》（`artifacts/git-comic-spec.md`，仅存本机）里有 product_id、定价、交付方式、验收记录与流水线接口。git 跟踪的是产品线的文档与记录。
 
 ## 制作方式
 
@@ -45,5 +49,5 @@
 
 - 项目地址：https://github.com/xhqing/GitComic
 - Copyright (c) 2026 All Contributors. 仓库文档以 [MIT](LICENSE.md) 许可。
-- 产品内容本身（PDF、图卡、分镜与源资产）**不在**该开源许可范围内——它们是商业交付物，不随本仓库分发。
+- 产品内容本身（PDF、图卡、分镜与源资产）**不在**该开源许可范围内——它们是商业交付物；试读版图片包经 GitHub Release 分发，但许可范围不变（不开源）。
 - 引用本项目时请保留版权声明并注明出处。

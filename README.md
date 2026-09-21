@@ -29,9 +29,13 @@
 
 Strategy: preview-first validation — ship the 20-page preview, measure engagement, then greenlight the full 80–120 page book (a separate task, pending validation results).
 
+## Get the Preview (GitHub Releases)
+
+The preview artwork ships as zip attachments on [GitHub Releases](https://github.com/xhqing/GitComic/releases) — raw image files are deliberately kept out of the git repo to keep it lightweight. The **ZH and EN editions version independently**: release tags use per-language prefixes (`zh-v*` / `en-v*`), so a Chinese-edition release never forces an English one. Current: ZH v0.2.1; the EN edition is being updated and will ship on its own tag.
+
 ## Why This Repo Tracks So Little
 
-The product itself (source assets, finished PDFs, cards, delivery zips, and the Product Spec) lives in this repo's **`artifacts/` directory, which is git-ignored on purpose**: paid products never enter a public repository. The spec (`artifacts/git-comic-spec.md`, local only) holds product ids, pricing, delivery, acceptance records, and the pipeline interface. What git tracks here is the product line's documentation and history.
+The product itself (source assets, finished PDFs, cards, delivery zips, and the Product Spec) lives in this repo's **`artifacts/` directory, which is git-ignored on purpose**: paid products never enter a public repository, and even the free preview images are distributed as Release attachments rather than loose files in git history (see "Get the Preview"). The spec (`artifacts/git-comic-spec.md`, local only) holds product ids, pricing, delivery, acceptance records, and the pipeline interface. What git tracks here is the product line's documentation and history.
 
 ## How It's Made
 
@@ -45,5 +49,5 @@ Chinese storyboard finalized first → one storyboard, two language editions (EN
 
 - Project URL: https://github.com/xhqing/GitComic
 - Copyright (c) 2026 All Contributors. Repo documentation is licensed under [MIT](LICENSE.md).
-- The product contents themselves (PDFs, card images, source/storyboard assets) are **not** covered by this open license — they are commercial deliverables and are not distributed in this repository.
+- The product contents themselves (PDFs, card images, source/storyboard assets) are **not** covered by this open license — they are commercial deliverables. The preview image packs are distributed via GitHub Releases, but their license terms stay unchanged (not open-sourced).
 - When referencing this project, please keep the copyright notice and cite the source.
