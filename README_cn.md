@@ -3,7 +3,7 @@
 <img src="assets/logo.svg" width="640" alt="GitComic logo" />
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Version](https://img.shields.io/badge/Version-0.2.1-blue)
+![Version](https://img.shields.io/badge/Version-0.2.2-blue)
 ![Type: Digital Product](https://img.shields.io/badge/Type-Digital%20Product-F05032)
 ![Languages: EN + ZH](https://img.shields.io/badge/Languages-EN%20%2B%20ZH-2A9D8F)
 
@@ -20,18 +20,17 @@
 
 ## 产品线
 
-**Git: The Comic — Your Undo Button for the AI Era**（英文版名）/《Git 漫画书：AI 时代的后悔药》（中文版名）——面向 vibe coding 非技术用户（让 AI 写代码但不懂版本控制的创业者、独立工作者、产品 / 设计 / 运营岗）的漫画式图文电子书。当前交付物（0.2.1，试读验证阶段）：
+**Git: The Comic — Your Undo Button for the AI Era**（英文版名）/《Git 漫画书：AI 时代的后悔药》（中文版名）——面向 vibe coding 非技术用户（让 AI 写代码但不懂版本控制的创业者、独立工作者、产品 / 设计 / 运营岗）的漫画式图文电子书。当前交付物（0.2.2，试读验证阶段）：
 
 | 产品 | product_id | 形态 |
 |---|---|---|
-| Git: The Comic（试读） | `Git-Comic-v1` | 20 页试读 PDF，英文版与中文版各一套 |
-| Git-Comic-Mini（图卡包） | `Git-Comic-Mini` | 10 张竖版图卡（1080×1350，Instagram / 小红书规格），英文版与中文版各一套 |
+| Git: The Comic（试读） | `Git-Comic-v1` | 20 页试读图（PNG 包），英文版与中文版各一套 |
 
 策略：验证优先——先发 20 页试读测互动，验证通过再启动全本（80–120 页，等验证结果另派任务）。
 
 ## 获取试读版（GitHub Releases）
 
-试读版成图以 zip 附件形式发布在 [GitHub Releases](https://github.com/xhqing/GitComic/releases)——图片裸文件不进 git 仓库，保持仓库轻量。**中文版与英文版各自独立演进版本号**：Release tag 用分语言前缀（`zh-v*` / `en-v*`），中文版发新版不强制英文版跟随。当前：中文版 v0.2.1；英文版正在更新中，将在自己的 tag 上发布。
+试读版成图以 zip 附件形式发布在 [GitHub Releases](https://github.com/xhqing/GitComic/releases)——图片裸文件不进 git 仓库，保持仓库轻量。**中文版与英文版各自独立演进版本号**：Release tag 用分语言前缀（`zh-v*` / `en-v*`），中文版发新版不强制英文版跟随。当前：中文版 v0.2.2；英文版 v0.2.2。
 
 ## 为什么仓库里几乎看不到产品文件
 

@@ -3,7 +3,7 @@
 <img src="assets/logo.svg" width="640" alt="GitComic logo" />
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Version](https://img.shields.io/badge/Version-0.2.1-blue)
+![Version](https://img.shields.io/badge/Version-0.2.2-blue)
 ![Type: Digital Product](https://img.shields.io/badge/Type-Digital%20Product-F05032)
 ![Languages: EN + ZH](https://img.shields.io/badge/Languages-EN%20%2B%20ZH-2A9D8F)
 
@@ -20,18 +20,17 @@
 
 ## The Product Line
 
-**Git: The Comic — Your Undo Button for the AI Era** (中文版《Git 漫画书：AI 时代的后悔药》) — a comic-style illustrated ebook for *vibe-coding* non-technical users (founders, indie workers, product/design/ops folks who let AI write their code but have no version control). Current deliverables (v0.2.1, preview stage):
+**Git: The Comic — Your Undo Button for the AI Era** (中文版《Git 漫画书：AI 时代的后悔药》) — a comic-style illustrated ebook for *vibe-coding* non-technical users (founders, indie workers, product/design/ops folks who let AI write their code but have no version control). Current deliverables (v0.2.2, preview stage):
 
 | Product | product_id | Form |
 |---|---|---|
-| Git: The Comic (preview) | `Git-Comic-v1` | 20-page preview PDF, EN & ZH editions |
-| Git-Comic-Mini | `Git-Comic-Mini` | 10 vertical cards (1080×1350, Instagram / RED-ready), EN & ZH editions |
+| Git: The Comic (preview) | `Git-Comic-v1` | 20-page preview artwork (PNG pack), EN & ZH editions |
 
 Strategy: preview-first validation — ship the 20-page preview, measure engagement, then greenlight the full 80–120 page book (a separate task, pending validation results).
 
 ## Get the Preview (GitHub Releases)
 
-The preview artwork ships as zip attachments on [GitHub Releases](https://github.com/xhqing/GitComic/releases) — raw image files are deliberately kept out of the git repo to keep it lightweight. The **ZH and EN editions version independently**: release tags use per-language prefixes (`zh-v*` / `en-v*`), so a Chinese-edition release never forces an English one. Current: ZH v0.2.1; the EN edition is being updated and will ship on its own tag.
+The preview artwork ships as zip attachments on [GitHub Releases](https://github.com/xhqing/GitComic/releases) — raw image files are deliberately kept out of the git repo to keep it lightweight. The **ZH and EN editions version independently**: release tags use per-language prefixes (`zh-v*` / `en-v*`), so a Chinese-edition release never forces an English one. Current: ZH v0.2.2; EN v0.2.2.
 
 ## Why This Repo Tracks So Little
 
