@@ -13,12 +13,19 @@ node_modules/
 __pycache__/
 *.pyc
 
-# Claude Code 个人本地配置（机器本地，不提交）
-.claude/settings.local.json
-
-# hook 运行时状态文件（机器本地）
-.claude/.memory-changed-this-session
-.claude/.last-memory-checkpoint
+# AI 工具专属文件（智能体身份规则类）——非 Agent 项目不得拥有（2026-10-12 全局规则，细则见 ~/.claude/docs/agents-registry.md）
+# 会话启动时按工作目录加载的智能体专属文件与各 AI 运行时配置目录一律不进本仓
+CLAUDE.md
+AGENTS.md
+AGENTS.override.md
+.claude/
+.pi/
+.agents/
+.codebuddy/
+.grok/
+.qoder/
+.trae/
+.zcode/
 
 # 临时产物（中间产物、备份、被取代 zip 等，见 CLAUDE.md「你的约束」）
 tmp/

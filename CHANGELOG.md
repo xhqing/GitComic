@@ -2,6 +2,17 @@
 
 本仓记录 GitComic 产品线的全部变更。**2026-09-19 建仓**：产品内容整体从 ProductProducerAgent 迁入，建仓前的生产历史条目自该仓 CHANGELOG 原样迁入（见下方各条，当时产品在 ProductProducerAgent 仓内生产，路径与表述均为当时口径）；原仓历史记录保留不删。待办编号沿用迁入的 T2 / T3，本仓新增待办自 T4 起（建仓迁移当轮已用 T4）。
 
+## [Unreleased]
+
+### 变更（仓库卫生：按新规移除智能体专属文件；byted-ark-seedream-skill 迁往 ProductProducerAgent）
+
+- **为什么改**：用户 2026-10-12 修订团队规则——智能体专属文件（`CLAUDE.md` / `AGENTS.md` / `.claude/` / 项目级 `.pi/`）从此只有 Agent 项目允许拥有，非 Agent 项目（含子项目）一律不得存在；后台开启 pi 会话（intercom / agent_call / agent_wake）只能以 Agent 项目根目录为工作目录（细则见全局 `~/.claude/docs/agents-registry.md`「智能体专属文件归属与子项目映射」节）。本仓为 ProductProducerAgent（Wright）的子项目，需清理随附文件；子项目的工作今后统一在 Wright 项目会话里按路径跨目录操作。
+- **改了什么**（2026-10-12）：
+  - **删除 `CLAUDE.md`**——原内容 = 本仓项目说明 + Wright 项目 CLAUDE.md 全文随附（旧「超集」规则产物）。项目说明中对今后仍有用的两点已并入 `README.md` / `README_cn.md`：制作源资产 2026-09-22 已整目录移除、全本按新管线重建（「为什么仓库里几乎看不到产品文件」节改写）；商标纪律（商业交付物不得绘制真实品牌商标，含手绘形态）补入「制作方式」节；
+  - **删除项目级 skill 与各 AI 运行时目录**：`.claude/`、`.pi/`、`.agents/`、`.codebuddy/`、`.grok/`、`.qoder/`、`.trae/`、`.zcode/` 与 `skills-lock.json`（火山方舟 skills 安装器的「一 skill 多运行时软链」结构，共 8 个目录位）。其中 `byted-ark-seedream-skill`（volcengine/agentplan 的 Seedream 生图 skill，MIT，v4.0.0，插画管线工具）有保留价值，已迁入 `ProductProducerAgent/.pi/skills/byted-ark-seedream-skill/` 后删除（与 GrowthMarketerAgent 仓同款副本逐字节一致）；
+  - **`.gitignore` 增补忽略块**：`CLAUDE.md` / `AGENTS.md` / `AGENTS.override.md` / `.claude/` / `.pi/` / `.agents/` / `.codebuddy/` / `.grok/` / `.qoder/` / `.trae/` / `.zcode/` 一律不进本仓（替代原 `.claude/` 零散忽略条目），防止 AI 工具再往本仓塞智能体专属文件。
+- **边界**：产品内容、公开分发渠道（`zh-v*` / `en-v*` Release 附件）与制作管线口径均不变；本仓 README 中英双语同轮同步更新。
+
 ## [0.2.2] - 2026-09-24
 
 ### 新增（0.2.2：商标合规处置——移除全书笔记本背面的苹果标识；英文版试读版 20 页产出）

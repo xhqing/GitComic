@@ -34,11 +34,11 @@ The preview artwork ships as zip attachments on [GitHub Releases](https://github
 
 ## Why This Repo Tracks So Little
 
-The product itself (source assets, finished PDFs, cards, delivery zips, and the Product Spec) lives in this repo's **`artifacts/` directory, which is git-ignored on purpose**: paid products never enter a public repository, and even the free preview images are distributed as Release attachments rather than loose files in git history (see "Get the Preview"). The spec (`artifacts/git-comic-spec.md`, local only) holds product ids, pricing, delivery, acceptance records, and the pipeline interface. What git tracks here is the product line's documentation and history.
+The product itself (source assets, finished PDFs, delivery zips, and the Product Spec) is kept out of git — it lives in this repo's **`artifacts/` directory, which is git-ignored on purpose**: paid products never enter a public repository, and even the free preview images are distributed as Release attachments rather than loose files in git history (see "Get the Preview"). Note: the production source assets that once lived here were removed from this machine on 2026-09-22 by decision — the full book will be produced with a rebuilt pipeline, and those old paths no longer exist. What git tracks here is the product line's documentation and history.
 
 ## How It's Made
 
-Chinese storyboard finalized first → one storyboard, two language editions (EN/ZH structurally identical, semantically aligned). Art pipeline: **Agnes AI** base illustrations (character reference images locked via multi-image composition for cross-page consistency) + an SVG typesetting layer for speech bubbles / narration / terminal boxes → Chrome headless prints the PDF (~5.5 MB per language), rsvg-convert renders the PNG cards. Full details in the local spec.
+Chinese storyboard finalized first → one storyboard, two language editions (EN/ZH structurally identical, semantically aligned). Art pipeline: **Agnes AI** base illustrations (character reference images locked via multi-image composition for cross-page consistency) + an SVG typesetting layer for speech bubbles / narration / terminal boxes → Chrome headless prints the PDF (~5.5 MB per language), rsvg-convert renders the PNG page images. Production rule: the book must not depict real brand trademarks (including hand-drawn renditions) — the 0.2.2 pass removed the Apple logo from 9 pages (see the changelog).
 
 ## Pipeline Position
 
